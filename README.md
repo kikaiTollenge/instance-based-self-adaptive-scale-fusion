@@ -7,6 +7,7 @@ This is an instance-based self-adaptive scale fusion implementation built on PyT
 
 ## Environment
 Installation environment dependencies.Specially,torch==2.0.1, openslide==1.1.2
+
 `pip install -r requirements.txt`
 
 ## DataProcessing
@@ -43,4 +44,5 @@ Low Scale Experiment can be run through
 
 
 `python main.py --config 'tcga_single_low' --source 'ctrans' --alpha 0.5 --concat 'none' --model 'acmil' --n_tokens 5 --gpu '0'`
+
 
