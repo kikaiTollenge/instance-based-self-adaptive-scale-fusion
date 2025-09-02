@@ -5,6 +5,10 @@ This is an instance-based self-adaptive scale fusion implementation built on PyT
 
 ![Fig2](https://github.com/user-attachments/assets/7bd3c718-7b3d-483e-a462-49e151307801)
 
+## Environment
+Installation environment dependencies.Specially,torch==2.0.1, openslide==1.1.2
+`pip install -r requirements.txt`
+
 ## DataProcessing
 
 Whole slide image which endswith '.tif' or '.svs' is available to process with the script ./dataset/dual_sample.py. After installing OpenSlide and modifying the file path and, you can run it directly with
@@ -39,3 +43,4 @@ Low Scale Experiment can be run through
 
 
 `python main.py --config 'tcga_single_low' --source 'ctrans' --alpha 0.5 --concat 'none' --model 'acmil' --n_tokens 5 --gpu '0'`
+
