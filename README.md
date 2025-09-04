@@ -24,7 +24,7 @@ Feature extract can be run by the script ./ctranspath/get_feature.py. The detail
 
 
 
-## Training
+## Training & Testing
 
 In ./model/adaptiveScaleFusion.py, hybrid weights are assigned across two instance scales, and the method has been evaluated on abmil, clam, transmil, acmil, and other models. You can run it directly with
 
@@ -44,5 +44,6 @@ Low Scale Experiment can be run through
 
 
 `python main.py --config 'tcga_single_low' --source 'ctrans' --alpha 0.5 --concat 'none' --model 'acmil' --n_tokens 5 --gpu '0'`
+
 
 
