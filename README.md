@@ -1,6 +1,6 @@
 # Adaptive Multi-Scale Fusion: Enhancing Whole Slide Image Classification through Instance-Based Learning
 
-This is an instance-based self-adaptive scale fusion implementation built on PyTorch. And it has now been provided to *The Visual Computer* for review.
+This is an instance-based self-adaptive scale fusion implementation built on PyTorch.
 
 
 ![Fig2](https://github.com/user-attachments/assets/7bd3c718-7b3d-483e-a462-49e151307801)
@@ -44,6 +44,7 @@ Low Scale Experiment can be run through
 
 
 `python main.py --config 'tcga_single_low' --source 'ctrans' --alpha 0.5 --concat 'none' --model 'acmil' --n_tokens 5 --gpu '0'`
+
 
 
 
